@@ -42,6 +42,9 @@ public class SpelTestAppRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
+        //printOut();
+    }
+    private void printOut() {
         System.out.println("================");
         System.out.println(value);
         System.out.println(greeting);
