@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ConversionServiceTester implements ApplicationRunner {
 
-    @Autowired
+    @Autowired(required = false)
     ConversionService conversionService;
 
     @Override

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 패키지 별로 디버깅 레벨 설정 가능-->
+    <!--<include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="me.cwpark" level="DEBUG"/>-->
+</configuration>
